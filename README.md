@@ -1,6 +1,6 @@
 # TaskMaster
 
-This React based web page allows you to create tasks and set priorities. You can check tasks off and select from the calender
+This React based web page allows you to create tasks and set priorities. You can check tasks off and select from the calender. Make sure to install required dependecies before running!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
