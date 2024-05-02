@@ -1,0 +1,135 @@
+/* App.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; 
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db; 
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .button {
+    border: 1px solid #3498db;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 1rem; */
+  }
+  
+  .hero-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 7rem;
+    background-color: #fff;
+  }
+  
+  .left-part {
+    flex: 1;
+    text-align: left;
+    width: 100%;
+    max-width: none;
+    padding-right: 2rem;
+  }
+  
+  .calendar-container {
+    width: 100%;
+    max-width: none;
+    border-right: 1px solid #ccc; 
+    box-sizing: border-box; 
+  }
+  
+  .right-part {
+    flex: 1;
+    text-align: left;
+    padding-left: 2rem;
+  }
+  
+  .tasks {
+    margin-left: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.5rem 0;
+  }
+  
+  .add-task {
+    margin-top: 1rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    margin-left: 0.5rem;
+    border: 1px solid #3498db;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  
+  
+  .react-calendar__tile--active {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+
+.task-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .time-range {
+    font-size: 0.8rem;
+    opacity: 0.7; 
+  }
+  .task-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: red;
+  }
+  
+
